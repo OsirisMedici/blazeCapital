@@ -58,7 +58,7 @@ const Banner = () => {
           src={bannerIcon7}
         />
 
-        <Image sx={styles.logo} src={logoImage} alt="logo image" />
+        {/* <Image sx={styles.logo} src={logoImage} alt="logo image" /> */}
         <Heading as="h2">Create beautiful landing page in few minutes</Heading>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
