@@ -12,45 +12,39 @@ import serviceImage6 from 'assets/service-6.png';
 const SERVICES_DATA = [
   {
     image: serviceImage1,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: '3D modeling & art',
-    path: '#',
+    text: "Trust our expert team to elevate your brand to new heights with our creative solutions that add real value to your Business",
+    heading: "Brand Brilliance Package",
+    path: "#",
   },
   {
     image: serviceImage2,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Digital promotion',
-    path: '#',
+    text: "Partner with our team of seasoned brand strategists to gain insights, clarity and guidance on how to create a trusted, high-value brand that speaks directly to your audience.",
+    heading: "Strategic Brand Consulting",
+    path: "#",
   },
   {
     image: serviceImage3,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Business Enterprise',
-    path: '#',
+    text: "Join our trusted community of marketing professionals and gain access to our exclusive training and resources designed to help you achieve unparalleled Success.",
+    heading: "Marketing Mastery Program",
+    path: "#",
   },
   {
     image: serviceImage4,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Marketing & advertising',
-    path: '#',
+    text: "Let us take the lead with our targeted, results-driven advertising services that deliver real ROI and help your business stand out in a crowded marketplace",
+    heading: "Trusted Advertising Services",
+    path: "#",
   },
   {
     image: serviceImage5,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Ultimate development',
-    path: '#',
+    text: "Our team of expert writers and designers will create high-value, creative content that engages and converts your audience, and showcases your brand in the best light.",
+    heading: "Creative Content Creation",
+    path: "#",
   },
   {
     image: serviceImage6,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Online support',
-    path: '#',
+    text: "Stay Ahead of the Game: Get a Weekly Feedback Report on Your Brand Advertising Efforts",
+    heading: "Doubt-Zero Buddy system",
+    path: "#",
   },
 ];
 const Services = () => {
@@ -58,8 +52,8 @@ const Services = () => {
     <Box as="section" id="services" sx={styles.services}>
       <Container>
         <BlockTitle
-          title="What the features of product"
-          text="Features are highlighted here"
+          title="Discover the Features of Our High-Value, CreativeFeatures and Bonuses "
+          text="Your success, our brilliant minds."
         />
         <Grid sx={styles.grid}>
           {SERVICES_DATA.map(({ image, text, heading, path }, index) => (

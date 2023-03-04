@@ -18,97 +18,77 @@ const TESTIMONIALS_DATA = [
   [
     {
       image: testimonialsImage1,
-      text:
-        'I would like to take this oppertunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.',
-      username: '@hello.mimmie',
-      name: 'Minnie Horn',
+      text: "Blaze Capital Marketing Agency has exceeded our expectations in every way. Their team is knowledgeable, responsive, and always goes the extra mile to ensure our marketing campaigns are successful.",
+
+      name: "John Doe, CEO",
     },
     {
       image: testimonialsImage2,
-      text:
-        'Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.',
-      username: '@merryn.manley',
-      name: 'Merryn Manley',
+      text: "We've been working with Blaze Capital for over a year now and they've helped us increase our online presence and drive more traffic to our website. Their team is professional, creative, and always delivers quality work.",
+
+      name: "Jane Smith, Marketing Manager",
     },
   ],
   [
     {
       image: testimonialsImage3,
-      text:
-        'I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you',
-      username: '@hi.veona',
-      name: 'Veona Watson',
+      text: "Blaze Capital is the real deal when it comes to digital marketing. They helped us develop a comprehensive strategy that increased our sales and ROI.. Thank you",
+      name: "Tom Johnson, COO ",
     },
     {
       image: testimonialsImage4,
-      text:
-        'I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result',
-      username: '@hey.nku',
-      name: 'Paseka Nku',
+      text: "Blaze Capital has been a game-changer for our business. They helped us build a strong brand and establish ourselves as a thought leader in our industry. Their team is highly skilled and always goes above and beyond.",
+
+      name: "Sarah Brown, Owner",
     },
   ],
   [
     {
       image: testimonialsImage5,
-      text:
-        'Thank you for all your help. Your service was excellent and very FAST.',
-      username: '@cherice.me',
-      name: 'Cherice Justin',
+      text: "Thank you for all your help. Your service was excellent and very FAST.",
+
+      name: "Michael Davis, CEO",
     },
     {
       image: testimonialsImage6,
-      text:
-        'For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tell you that everything worked out perfectly with all the bookings and also your booking was very quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend',
-      username: '@myself.thais',
-      name: 'Thais Carballal',
+      text: "Blaze Capital helped us revamp our website and develop a content marketing strategy that resulted in a significant increase in traffic and leads. Their team is reliable, responsive, and highly skilled.",
+      name: "Tim Smith, Marketing Director",
     },
   ],
   [
     {
       image: testimonialsImage1,
-      text:
-        'I would like to take this oppertunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.',
-      username: '@hello.mimmie',
-      name: 'Minnie Horn',
+      text: "Blaze Capital's expertise in digital marketing has been invaluable to our business. They're always on top of the latest trends and technologies and provide us with the guidance we need to stay ahead of the competition.",
+      name: "Lisa Johnson, CEO",
     },
     {
       image: testimonialsImage2,
-      text:
-        'Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.',
-      username: '@merryn.manley',
-      name: 'Merryn Manley',
+      text: "Working with Blaze Capital has been a pleasure. Their team is knowledgeable, responsive, and always delivers high-quality work. We highly recommend their services.",
+      name: "Mark Brown, Marketing Manager",
     },
   ],
   [
     {
       image: testimonialsImage3,
-      text:
-        'I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you',
-      username: '@hi.veona',
-      name: 'Veona Watson',
+      text: "Blaze Capital helped us increase our social media presence and develop a strong online community. Their team is creative, strategic, and highly effective. Thank you",
+      name: "Rachel Smith, Director",
     },
     {
       image: testimonialsImage4,
-      text:
-        'I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result',
-      username: '@hey.nku',
-      name: 'Paseka Nku',
+      text: "We're extremely happy with the results we've seen since working with Blaze Capital. Their team helped us optimize our website and develop a PPC campaign that generated a significant increase in leads and sales.",
+      name: "James Johnson, CMO",
     },
   ],
   [
     {
       image: testimonialsImage5,
-      text:
-        'Thank you for all your help. Your service was excellent and very FAST.',
-      username: '@cherice.me',
-      name: 'Cherice Justin',
+      text: "Thank you for all your help. Your service was excellent and very FAST.",
+      name: "Cherice Justin",
     },
     {
       image: testimonialsImage6,
-      text:
-        'For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tell you that everything worked out perfectly with all the bookings and also your booking was very quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend',
-      username: '@myself.thais',
-      name: 'Thais Carballal',
+      text: "Blaze Capital's dedication to our success is unparalleled. Their team is always available to answer our questions and provide us with the support we need to achieve our marketing goals.",
+      name: "Samantha Brown, Owner",
     },
   ],
 ];
@@ -147,14 +127,9 @@ const Testimonials = () => {
   return (
     <Box as="section" sx={styles.testimonials}>
       <BlockTitle
-        />
-         <div className={shadows.title}>
-        What client say about us
-        </div>
-        <div className={shadows.Subtitle}>
-        Customer testimonial
-        </div>
-       
+        title="Trusted by Top Brands - Hear What They Have to Say About Us."
+        text="Customer testimonial"
+      />
       <Swiper {...testimonialCarousel}>
         {TESTIMONIALS_DATA.map((item, index) => (
           <SwiperSlide key={index} id={shadows.testimonials}>

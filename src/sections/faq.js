@@ -91,7 +91,8 @@ const FAQ = () => {
           </Box>
           <Box sx={styles.content}>
             <Heading as="h3">
-              Do you have any quesiton? Please ask here we ready to support
+              Get the Answers You Need from Our Trusted, High-Value, Creative
+              Support Team!
             </Heading>
             <Text as="p">
               If your question is not list here, please feel free to make a
@@ -99,6 +100,7 @@ const FAQ = () => {
             </Text>
             <Link sx={styles.askButton} path="#">
               Ask your Question
+              <a href=""></a>
             </Link>
           </Box>
         </Flex>
