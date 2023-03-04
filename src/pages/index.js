@@ -28,7 +28,7 @@ export default function IndexPage() {
           <Featured />
           <Pricing />
           <Testimonials />
-          <Blogs />
+          {/* <Blogs /> */}
           <FAQ />
           <Subscribe />
         </Layout>
