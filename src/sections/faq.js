@@ -3,7 +3,7 @@ import { Box, Container, Flex, Text, Heading } from 'theme-ui';
 import { Link } from 'components/link';
 import BlockTitle from 'components/block-title';
 import Accordion from 'components/accordion/accordion';
-
+import margin from '../theme/shadows.module.css';
 const accordionData = [
   {
     isExpanded: false,
@@ -79,9 +79,9 @@ const accordionData = [
 
 const FAQ = () => {
   return (
-    <Box as="section">
-      <Container>
-        <BlockTitle
+    <Box as="faq">
+      <Container sx={styles.marginn}>
+        <BlockTitle 
           title="Frequently Ask Question"
           text="Ask your question and meet"
         />
@@ -112,10 +112,14 @@ const FAQ = () => {
 export default FAQ;
 
 const styles = {
+  marginn:{
+    pt:'50px',
+  },
   flex: {
     flexWrap: 'wrap',
     flexDirection: ['column', null, null, null, null, 'row-reverse'],
     pb: ['70px', null, null, null, '90px', null, '130px'],
+   
   },
   content: {
     flex: ['0 0 100%', null, null, null, '0 0 33.333%'],
