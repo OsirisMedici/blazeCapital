@@ -5,9 +5,11 @@ import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from 'sections/banner';
+import { fiveBrands } from "components/brands/fiveBrands";
 import Services from 'sections/services';
 import Jackpot from 'sections/jackpot';
 import CallToAction from 'sections/call-to-action';
+import Support from "sections/support";
 import Featured from 'sections/featured';
 import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
@@ -22,12 +24,14 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Blaze" />
           <Banner />
-          <Services />
+          <fiveBrands />
           <Jackpot />
-          <CallToAction />
+          <Services />
+          <support />
           <Featured />
-          <Pricing />
+          <CallToAction />
           <Testimonials />
+          <Pricing />
           {/* <Blogs /> */}
           <FAQ />
           <Subscribe />
