@@ -43,35 +43,35 @@ const Featured = () => {
     <Box as="section" sx={styles.featured}>
       <Container sx={styles.container}>
         <BlockTitle
-          title="What the features of product"
-          text="Introducing all screen details"
+          title="Start, grow, and reduce the time you spend on your one-person business without sacrificing your authenticity"
+          text="THE WORLD IS SHIFTING"
         />
         <Box sx={styles.tabButtonTopWrapper}>
           <Box sx={styles.tabButtonWrapper}>
             <Button
-              onClick={() => handleTab('budget')}
-              className={`${tab.active === 'budget' ? 'active' : ''}`}
+              onClick={() => handleTab("budget")}
+              className={`${tab.active === "budget" ? "active" : ""}`}
             >
               <AiFillDollarCircle />
               Budget Overview
             </Button>
             <Button
-              onClick={() => handleTab('adjust')}
-              className={`${tab.active === 'adjust' ? 'active' : ''}`}
+              onClick={() => handleTab("adjust")}
+              className={`${tab.active === "adjust" ? "active" : ""}`}
             >
               <FaCog />
               Create & adjust
             </Button>
             <Button
-              onClick={() => handleTab('report')}
-              className={`${tab.active === 'report' ? 'active' : ''}`}
+              onClick={() => handleTab("report")}
+              className={`${tab.active === "report" ? "active" : ""}`}
             >
               <AiFillPieChart />
               View Reports
             </Button>
             <Button
-              onClick={() => handleTab('create')}
-              className={`${tab.active === 'create' ? 'active' : ''}`}
+              onClick={() => handleTab("create")}
+              className={`${tab.active === "create" ? "active" : ""}`}
             >
               <FaBriefcase />
               Create & adjust
@@ -79,16 +79,16 @@ const Featured = () => {
           </Box>
         </Box>
         <Box sx={styles.tabContent}>
-          {tab.active === 'budget' && (
+          {tab.active === "budget" && (
             <Image src={tabImage1} alt="tab image" className="tabImage" />
           )}
-          {tab.active === 'create' && (
+          {tab.active === "create" && (
             <Image src={tabImage1} alt="tab image" className="tabImage" />
           )}
-          {tab.active === 'adjust' && (
+          {tab.active === "adjust" && (
             <Image src={tabImage1} alt="tab image" className="tabImage" />
           )}
-          {tab.active === 'report' && (
+          {tab.active === "report" && (
             <Image src={tabImage1} alt="tab image" className="tabImage" />
           )}
         </Box>

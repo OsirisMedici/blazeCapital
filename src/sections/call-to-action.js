@@ -12,16 +12,16 @@ const CallToAction = () => {
           <Box sx={styles.content}>
             <Text as="span">Behind the design</Text>
             <Heading as="h3">
-              Code that we used to built the website with integrating apps
+              Trusted by Top Brands Hear What They Have to Say About Us.
             </Heading>
             <Text as="p">
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever. Get your tests delivered at let home collect
-              sample.
+              Are you looking for a trusted partner to help you take your
+              business to the next level? Look no further than our team of
+              creative minds, trusted by top brands for their high-value
+              solutions.
             </Text>
             <Link path="#" sx={styles.button}>
-              Explore More
+              Okay, Now I'm Ready
             </Link>
           </Box>
           <Box sx={styles.images}>

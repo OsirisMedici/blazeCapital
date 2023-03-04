@@ -59,7 +59,13 @@ const Banner = () => {
         />
 
         <Image sx={styles.logo} src={logoImage} alt="logo image" />
-        <Heading as="h2">Create beautiful landing page in few minutes</Heading>
+        <Heading as="h2">
+          You’ve got a business, we have got brilliant Minds.
+        </Heading>
+        <div>
+          Let us build the bridge between your brand and customer. We have got
+          minds in action 🚀
+        </div>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>

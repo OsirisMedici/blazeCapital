@@ -124,7 +124,7 @@ const Pricing = () => {
     <Box as="section" id="pricing" sx={styles.pricing}>
       <Container>
         <BlockTitle
-          title="What deal suit you perfect"
+          title="Discover the perfect deal for you"
           text="Meet our pricing plan"
         />
         {/* <Box sx={styles.btnWrap}>
@@ -133,8 +133,8 @@ const Pricing = () => {
             className={`${plan.active === 'monthly' ? 'active' : ''}`}
           >
             Pricing */}
-          {/* </Button> */}
-          {/* <Button
+        {/* </Button> */}
+        {/* <Button
             onClick={() => handlePlan('yearly')}
             className={`${plan.active === 'yearly' ? 'active' : ''}`}
           >
@@ -144,7 +144,6 @@ const Pricing = () => {
         <Grid sx={styles.grid}>
           {plan.pricingPlan.map((price, index) => (
             <PriceCard data={price} key={`${plan.active}-card--key${index}`} />
-            
           ))}
         </Grid>
       </Container>

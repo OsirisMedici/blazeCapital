@@ -8,15 +8,13 @@ import jackpotImage2 from 'assets/jackpot-1-2.png';
 const JACKPOT_DATA = [
   {
     image: jackpotImage1,
-    text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managments your blood tests.',
-    heading: 'Smart Features',
+    text: "With a trusted brand built on excellence, our agency has a proven track record of delivering high-value results for clients across various industries. ",
+    heading: "Proven Track Record",
   },
   {
     image: jackpotImage2,
-    text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managments your blood tests.',
-    heading: 'Secure Contents',
+    text: "Our agency is powered by a team of highly creative professionals who constantly push the boundaries of innovation to provide our clients with the best possible marketing solutions.",
+    heading: "Innovative Solutions",
   },
 ];
 
@@ -31,7 +29,9 @@ const Jackpot = () => {
           <Box sx={styles.content}>
             <Box sx={styles.heading}>
               <Text as="span">Core features</Text>
-              <Heading as="h3">Smart Jackpots that you may love this</Heading>
+              <Heading as="h3">
+                Trusted for excellence, powered by creativity.
+              </Heading>
             </Box>
             <Box sx={styles.jackpotCardBox}>
               {JACKPOT_DATA.map(({ image, heading, text }, index) => (
