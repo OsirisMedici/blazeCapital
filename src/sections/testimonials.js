@@ -3,6 +3,7 @@ import { Box } from 'theme-ui';
 import SwiperCore, { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import BlockTitle from 'components/block-title';
+import shadows from '../theme/shadows.module.css';
 import TestimonialsCard from 'components/cards/testimonial-card';
 import testimonialsImage1 from 'assets/testimonial-1-1.png';
 import testimonialsImage2 from 'assets/testimonial-1-2.png';
@@ -144,14 +145,19 @@ const Testimonials = () => {
     },
   };
   return (
-    <Box as="section" id="testimonials" sx={styles.testimonials}>
+    <Box as="section" sx={styles.testimonials}>
       <BlockTitle
-        title="What client say about us"
-        text="Customer testimonial"
-      />
+        />
+         <div className={shadows.title}>
+        What client say about us
+        </div>
+        <div className={shadows.Subtitle}>
+        Customer testimonial
+        </div>
+       
       <Swiper {...testimonialCarousel}>
         {TESTIMONIALS_DATA.map((item, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} id={shadows.testimonials}>
             {item.map(({ image, text, name, username }, _index) => (
               <TestimonialsCard
                 image={image}
@@ -172,8 +178,8 @@ export default Testimonials;
 
 const styles = {
   testimonials: {
-    backgroundColor: '#F4F4F6',
-    pt: ['80px', null, null, null, '80px', null, '100px'],
+    backgroundColor: '#000000',
+    pt: ['80px', null, null, null, '10px', null, '100px'],
     pb: ['60px', null, null, null, '80px', null, '120px'],
   },
 };

@@ -193,7 +193,7 @@ const styles = {
     button: {
       backgroundColor: 'rgba(0,0,0,0)',
       borderRadius: '5px',
-      color: '#0F2137',
+      color: '#2563eb',
       letterSpacing: '-0.24px',
       fontSize: '16px',
       fontWeight: 500,

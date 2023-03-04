@@ -9,8 +9,8 @@ export default {
     background: '#FFFFFF', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E9EDF5', // border color
-    primary: '#8D255B', // primary button and link color
-    secondary: '#793677', // secondary color - can be used for hover states
+    primary: '#2563eb', // primary button and link color
+    secondary: '#2563eb', // secondary color - can be used for hover states
     black: '#0F2137', // black color
     gray: '#F8FAFC',
     muted: '#7B8188', // muted color
@@ -70,7 +70,7 @@ export default {
       fontWeight: 'heading',
       fontSize: 4,
       letterSpacing: 'heading',
-      color: 'heading',
+      color: 'background',
     },
     heroPrimary: {
       fontSize: [5, 55],
@@ -80,11 +80,11 @@ export default {
       textAlign: ['center', 'left'],
     },
     title: {
-      variant: 'text.heading',
+      variant: 'background',
       fontWeight: 'bold',
       fontSize: 18,
       lineHeight: '30px',
-      color: '#0F2137',
+      color: 'background',
     },
     heroSecondary: {
       color: 'text_secondary',
