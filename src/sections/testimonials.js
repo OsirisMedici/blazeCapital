@@ -125,11 +125,11 @@ const Testimonials = () => {
     },
   };
   return (
-    <Box as="section" sx={styles.testimonials}>
-      <BlockTitle
-        title="Trusted by Top Brands - Hear What They Have to Say About Us."
-        text="Customer testimonial"
-      />
+    <Box as="section" id="testimonials" sx={styles.testimonials}>
+      
+        <div className={shadows.title}> Trusted by Top Brands - Hear What They Have to Say About Us. </div>
+        <div className={shadows.Subtitle}> Customer testimonial</div>
+    
       <Swiper {...testimonialCarousel}>
         {TESTIMONIALS_DATA.map((item, index) => (
           <SwiperSlide key={index} id={shadows.testimonials}>

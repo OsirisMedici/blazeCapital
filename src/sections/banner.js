@@ -1,10 +1,12 @@
 import React from 'react';
 import { Box, Container, Image, Heading } from 'theme-ui';
+import BlockTitle from 'components/block-title';
 import { keyframes } from '@emotion/core';
 import logoImage from 'assets/logo3.png';
+import shadows from '../theme/shadows.module.css';
 import bannerImage from 'assets/banner-mockup.png';
-import bannerIcon1 from 'assets/banner-icon-1-1.svg';
-import bannerIcon2 from 'assets/banner-icon-1-2.svg';
+import bannerIcon1 from 'assets/blze4.png';
+import bannerIcon2 from 'assets/blaze42.png';
 import bannerIcon3 from 'assets/banner-icon-1-3.svg';
 import bannerIcon4 from 'assets/banner-icon-1-4.svg';
 import bannerIcon5 from 'assets/banner-icon-1-5.svg';
@@ -58,14 +60,10 @@ const Banner = () => {
           src={bannerIcon7}
         />
 
-        <Image sx={styles.logo} src={logoImage} alt="logo image" />
-        <Heading as="h2">
-          You’ve got a business, we have got brilliant Minds.
-        </Heading>
-        <div>
-          Let us build the bridge between your brand and customer. We have got
-          minds in action 🚀
-        </div>
+        {/* <Image sx={styles.logo} src={logoImage} alt="logo image" /> */}
+        <Heading as="h2">Create beautiful landing page in few minutes</Heading>
+        <BlockTitle 
+        text  ="Let us build the bridge between your brand and customer. We have got minds in action 🚀"/>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>
@@ -174,11 +172,15 @@ const styles = {
     top: '10%',
     left: '10%',
     animation: `${bannerAnim2} 8s linear infinite`,
+    width:'50px',
+    opacity:'50%',
   },
   bannerIcon2: {
-    top: '10%',
+    top: '30%',
     right: '10%',
     animation: `${bannerAnim2} 8s linear infinite`,
+    width:'200px',
+
   },
   bannerIcon3: {
     bottom: '40px',
