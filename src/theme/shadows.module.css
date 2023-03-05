@@ -6,11 +6,11 @@
     background-color: aqua;
 }
 .title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-shadow: 2px 2px #2563eb;
 }
 .Subtitle{
@@ -18,7 +18,7 @@
     font-weight: bolder;
     color: aliceblue;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .questions{
     padding-top: 100px;
@@ -26,4 +26,27 @@
 .logo{
     font-weight: bolder;
     font-size: 35px;
+}
+.subHead{
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    /* flex-direction: column; */
+    width: 700px;
+    text-align: center;
+    margin-bottom: 20px;
+
+@media screen  and (min-width: 480px){
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    /* flex-direction: column; */
+    /* width: 700px; */
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
 }
