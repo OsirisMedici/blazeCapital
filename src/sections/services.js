@@ -52,7 +52,7 @@ const Services = () => {
     <Box as="section" id="services" sx={styles.services}>
       <Container>
         <BlockTitle
-          title="Discover the Features of Our High-Value, CreativeFeatures and Bonuses "
+          title="Discover the Features of Our High-Value, Creative Features and Bonuses "
           text="Your success, our brilliant minds."
         />
         <Grid sx={styles.grid}>

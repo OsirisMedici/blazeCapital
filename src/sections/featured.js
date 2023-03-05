@@ -6,6 +6,9 @@ import Image from 'components/image';
 import { AiFillDollarCircle, AiFillPieChart } from 'react-icons/ai';
 import { FaBriefcase, FaCog } from 'react-icons/fa';
 import tabImage1 from 'assets/tab-image-1.png';
+import tabImage2 from "assets/tab-image-2.png";
+import tabImage3 from "assets/tab-image-3.png";
+import tabImage4 from "assets/tab-image-4.png";
 import dotPattern from 'assets/dot-pattern.svg';
 
 const Featured = () => {
@@ -43,7 +46,7 @@ const Featured = () => {
     <Box as="section" sx={styles.featured}>
       <Container sx={styles.container}>
         <BlockTitle
-          title="Start, grow, and reduce the time you spend on your one-person business without sacrificing your authenticity"
+          title="REDUCE the time you spend on your BUSINESS without SACRIFICING your AUTHENTICITY"
           text="THE WORLD IS SHIFTING"
         />
         <Box sx={styles.tabButtonTopWrapper}>
@@ -60,36 +63,36 @@ const Featured = () => {
               className={`${tab.active === "adjust" ? "active" : ""}`}
             >
               <FaCog />
-              Create & adjust
+              Collaborate
             </Button>
             <Button
               onClick={() => handleTab("report")}
               className={`${tab.active === "report" ? "active" : ""}`}
             >
               <AiFillPieChart />
-              View Reports
+              Create & adjust
             </Button>
             <Button
               onClick={() => handleTab("create")}
               className={`${tab.active === "create" ? "active" : ""}`}
             >
               <FaBriefcase />
-              Create & adjust
+              View Reports
             </Button>
           </Box>
         </Box>
         <Box sx={styles.tabContent}>
           {tab.active === "budget" && (
-            <Image src={tabImage1} alt="tab image" className="tabImage" />
+            <Image src={tabImage2} alt="tab image" className="tabImage" />
           )}
           {tab.active === "create" && (
             <Image src={tabImage1} alt="tab image" className="tabImage" />
           )}
           {tab.active === "adjust" && (
-            <Image src={tabImage1} alt="tab image" className="tabImage" />
+            <Image src={tabImage3} alt="tab image" className="tabImage" />
           )}
           {tab.active === "report" && (
-            <Image src={tabImage1} alt="tab image" className="tabImage" />
+            <Image src={tabImage4} alt="tab image" className="tabImage" />
           )}
         </Box>
       </Container>
