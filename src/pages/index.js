@@ -16,6 +16,7 @@ import Testimonials from 'sections/testimonials';
 import Blogs from 'sections/blogs';
 import FAQ from 'sections/faq';
 import Trusted from 'sections/trusted';
+import Company from "sections/company";
 import Subscribe from 'sections/subscribe';
 
 export default function IndexPage() {
@@ -25,6 +26,7 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Blaze" />
           <Banner />
+          <Company/>
           <Trusted/>
           <fiveBrands />
           <Jackpot />
