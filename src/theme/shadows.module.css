@@ -38,15 +38,28 @@
     text-align: center;
     margin-bottom: 20px;
 
-@media screen  and (min-width: 480px){
-    font-size: 15px;
-    font-weight: bold;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    /* flex-direction: column; */
-    /* width: 700px; */
-    /* text-align: center; */
-    margin-bottom: 20px;
 }
+
+.trustedMain{
+    width: 50vw;
+    display: flex;
+}
+
+.mainHead{
+    color: #2563eb;
+    font-size: 22px;
+    font-weight: bold;
+}
+.trustedSubHead{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.subDesc{
+    font-size: 20px;
+    font-weight: 300;
+}
+.socialMedia{
+    width: 50vw;
+    display: flex;
 }

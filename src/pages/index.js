@@ -15,6 +15,7 @@ import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
 import Blogs from 'sections/blogs';
 import FAQ from 'sections/faq';
+import Trusted from 'sections/trusted';
 import Subscribe from 'sections/subscribe';
 
 export default function IndexPage() {
@@ -24,10 +25,11 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Blaze" />
           <Banner />
+          <Trusted/>
           <fiveBrands />
           <Jackpot />
           <Services />
-          <support />
+          <Support />
           <Featured />
           <CallToAction />
           <Testimonials />

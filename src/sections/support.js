@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Container, Flex, Text, Heading, Image } from "theme-ui";
 import { Link } from "components/link";
 
-import callImage from "assets/call-image.png";
+import callImage from "assets/customer-support.png";
 
 const Support = () => {
   return (
@@ -11,14 +11,11 @@ const Support = () => {
         <Flex sx={styles.flex}>
           <Box sx={styles.content}>
             <Text as="span">Behind the design</Text>
-            <Heading as="h3">
-              Trusted by Top Brands Hear What They Have to Say About Us.
+            <Heading as="h3" sx={styles.mainHeading}>
+            24/7 real-time support.
             </Heading>
             <Text as="p">
-              Are you looking for a trusted partner to help you take your
-              business to the next level? Look no further than our team of
-              creative minds, trusted by top brands for their high-value
-              solutions.
+            Blaze has the highest rated client support in software. We're here 24 hours a day, every day of the week, including holidays.
             </Text>
             <Link path="#" sx={styles.button}>
               Okay, Now I'm Ready
