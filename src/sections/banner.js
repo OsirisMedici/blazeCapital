@@ -172,12 +172,15 @@ const styles = {
     top: '10%',
     left: '10%',
     animation: `${bannerAnim2} 8s linear infinite`,
+    width:'50px',
+    opacity:'50%',
   },
   bannerIcon2: {
-    top: '10%',
+    top: '30%',
     right: '10%',
     animation: `${bannerAnim2} 8s linear infinite`,
-    width:'800px',
+    width:'200px',
+
   },
   bannerIcon3: {
     bottom: '40px',
