@@ -35,13 +35,13 @@ export default Subscribe;
 const styles = {
   subscribe: {
     py: ["80px", null, null, null, "80px", "100px", "140px"],
-    backgroundColor: "#181823",
+    backgroundColor: "#000000",
     h3: {
       textAlign: "center",
       fontSize: ["23px", null, null, null, null, "30px", "36px"],
       lineHeight: [1.5, null, null, "1"],
       color: "#fff",
-      letterSpacing: ["-0.5px"],
+      letterSpacing: ["-0.1px"],
       mb: ["0px", null, null, "15px"],
       width: ["70%", null, null, "auto"],
       mx: ["auto", null, null, "0"],

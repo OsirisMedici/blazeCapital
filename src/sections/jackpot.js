@@ -79,7 +79,7 @@ const styles = {
     span: {
       display: 'block',
       fontSize: '18px',
-      color: 'primary',
+      color: '#000000',
       fontWeight: 700,
       lineHeight: 1,
       mb: '20px',
