@@ -8,9 +8,9 @@ const trusted = () => {
         <div className={shadows.trustedMain}>
           <div > <p className={shadows.mainHead}> Our Channels</p>
           <div className={shadows.trustedSubHead}>
-            Get your messages in front of  dkjasn dcskd svvnsnsnd sc sdcsndj cnsdjcns dnjcns dcnsjdncjn skdnckj
+            Get your Message in front of your cutomers, Wherever they are  
           </div>
-          <div className={shadows.subDesc}> skn dcksndcns jdnckjnskdjnckjdsnjdcn sdc sdcnsdjc sdc sdcjnsdkc sodcnsd csn dkcn sdjncsd </div>
+          <div className={shadows.subDesc}> We will help you create automated lead generation cappaigns that move your ideal prospects from strangers to loyal customers  </div>
           </div>
 
         <div className={shadows.socialMedia}>

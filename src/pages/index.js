@@ -30,7 +30,6 @@ export default function IndexPage() {
           <Banner />
           <Company/>
           <Jackpot />
-          <Leads/>
           <Services />
           <Support />
           <Trusted/>
@@ -40,7 +39,6 @@ export default function IndexPage() {
           <Pricing />
           {/* <Blogs /> */}
           <FAQ />
-          <Subscribe />
         </Layout>
       </StickyProvider>
     </ThemeProvider>
