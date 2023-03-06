@@ -15,8 +15,8 @@ export default function Logo({ image }) {
       }}
     >
       <Image src={logo} alt="blaze logo" />
-      <b className={styles.logo}> BlazeCaptial</b>
       
+      <b className={styles.logo}> BlazeCaptial</b>
     </Link>
   );
 }

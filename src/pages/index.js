@@ -17,6 +17,7 @@ import Blogs from 'sections/blogs';
 import FAQ from 'sections/faq';
 import Trusted from 'sections/trusted';
 import Company from "sections/company";
+
 import Leads from "sections/leads";
 import Subscribe from 'sections/subscribe';
 

@@ -6,6 +6,9 @@ import Logo from 'components/logo';
 import logoLight from 'assets/logo-light.svg';
 export default function Footer() {
   return (
+    <>  
+{/* <iframe src="https://modernwarrior.ck.page/97a3b66ffe" frameborder="" width={1000} height={900}></iframe> */}
+
     <Box as="footer" sx={styles.footer}>
       <Container sx={styles.container}>
         <Box
@@ -16,15 +19,18 @@ export default function Footer() {
           }}
         >
           <Logo image={logoLight} />
+         
           <Text
             as="p"
             sx={{
               color: '#ffffff',
               opacity: '0.7',
-              fontSize: '14px',
+              fontSize: '15px',
+              ml:'20px',
               mt: ['10px', null, null, null, null, '0'],
             }}
           >
+            
             Copyright by Blaze-Capital
           </Text>
         </Box>
@@ -37,6 +43,8 @@ export default function Footer() {
         </Box>
       </Container>
     </Box>
+
+    </>
   );
 }
 

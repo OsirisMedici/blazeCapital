@@ -26,6 +26,9 @@
 .logo{
     font-weight: bolder;
     font-size: 35px;
+    /* text-shadow: 5px 5px 5px  #ffffff; */
+    -webkit-text-stroke: 0.5px #ffffff;
+    
 }
 .subHead{
     font-size: 25px;
@@ -41,14 +44,18 @@
 }
 
 .trustedMain{
-    width: 50vw;
+  margin-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
     display: flex;
+    
 }
 
 .mainHead{
     color: #2563eb;
     font-size: 22px;
     font-weight: bold;
+    width: 50vw;
 }
 .trustedSubHead{
     font-size: 28px;
@@ -61,5 +68,121 @@
 }
 .socialMedia{
     width: 50vw;
+    display: inline-block;
+}
+.socialmedia1{
     display: flex;
+    flex-wrap: wrap ;
+    /* width:100px; */
+    justify-content: space-evenly;
+    
+}
+.socialIcons{
+    /* background-color: aliceblue; */
+     font-size: 120px;
+     box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    background-color: rgb(255, 255, 255);
+    /* height: 120px; */
+    /* width: 120px; */
+    border-radius: 10%;
+    margin-top: 60px;
+    color: #0051ffbe;
+    margin-left: 20px;
+    /* display: flex; */
+    display: inline-block;
+   
+    
+    
+}
+@media (max-width: 600px) {
+  .socialIcons {
+      font-size: 55px;
+     box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,;
+    background-color: rgb(255, 255, 255);
+  
+    border-radius: 10%;
+    margin-top: 60px;
+    color: #0051ffbe;
+    margin-left: 10px;
+    /* display: inline ; */
+  
+  }
+  .trustedMain{
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  /* display: flex; */
+  display: inline-block;
+    
+}
+
+.mainHead{
+    color: #2563eb;
+    font-size: 15px;
+    font-weight: bold;
+    /* width: 50vw; */
+}
+.trustedSubHead{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.subDesc{
+    font-size: 15px;
+    font-weight: 300;
+}
+.socialMedia{
+    /* width: 50vw; */
+    display: inline-block;
+}
+.socialmedia1{
+    display: flex;
+    /* flex-wrap: wrap ; */
+    /* width:400px; */
+    justify-content: space-evenly;
+    
+}
+.title{
+    font-size: 24px;
+    margin-top: 0px;
+}
+.Subtitle{
+    font-size: 18px;
+
+
+}
+
+}
+
+.images{
+    /* size: 20px; */
+    
+    display: flex;
+}
+.subimg{
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    /* background-color: #2563eb; */
+    /* margin: 50px; */
+       
+    
+}
+.comphead{
+    color: #2563eb;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    /* width: 50vw; */
+    
+}
+.company{
+    text-align: center;
+    padding-top: 40px;
+    width: 90vw;
+    margin: auto;
+    /* box-sizing: border-box 2px ; */
+    font-size: 28px;
+    font-weight:500 ;
 }
