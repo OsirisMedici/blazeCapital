@@ -14,13 +14,15 @@ const trusted = () => {
           </div>
 
         <div className={shadows.socialMedia}>
-            <div><FaInstagram/> </div>
-            <div><FaInstagram/> </div>
-            <div><FaInstagram/> </div>
-            <div><FaInstagram/> </div>
-            <div><FaInstagram/> </div>
-            <div><FaInstagram/> </div>
+          <div className={shadows.socialmedia1}>
+            <div className={shadows.iconbox}> <div ><FaInstagram className={shadows.socialIcons}/></div> </div> 
+            <div className={shadows.iconbox}><div><FaFacebookF className={shadows.socialIcons}/> </div></div> 
+            <div className={shadows.iconbox}> <div><FaGoogle className={shadows.socialIcons}/> </div> </div> 
+            <div className={shadows.iconbox}> <div><FaLinkedin className={shadows.socialIcons}/> </div></div> 
+            <div className={shadows.iconbox}> <div><FaYoutube className={shadows.socialIcons}/> </div></div> 
+            <div className={shadows.iconbox}> <div><FaCodepen className={shadows.socialIcons}/> </div></div> 
 
+</div>
         </div>
         </div>
         </>

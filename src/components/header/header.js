@@ -33,7 +33,7 @@ export default function Header({ className }) {
           </Flex>
 
           <Link
-            path="/"
+            path="https://calendly.com/abhishblaze/blaze-capital"
             ml={2}
             label="Book a Free Call"
             sx={styles.headerBtn}
